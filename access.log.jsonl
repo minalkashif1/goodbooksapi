@@ -1,0 +1,5 @@
+{"route": "http://127.0.0.1:8000/search?q=harry", "params": {"q": "harry", "limit": 10}, "status": 200, "latency_ms": 77.75, "client_ip": "127.0.0.1", "ts": "2025-10-06T16:11:19.102307"}
+{"route": "http://127.0.0.1:8000/books/123", "params": {"book_id": 123}, "status": 404, "latency_ms": 2.56, "client_ip": "127.0.0.1", "ts": "2025-10-06T16:11:36.866447"}
+{"route": "http://127.0.0.1:8000/search?q=harry", "params": {"q": "harry", "limit": 10}, "status": 200, "latency_ms": 1.84, "client_ip": "127.0.0.1", "ts": "2025-10-06T16:14:55.215968"}
+{"route": "http://127.0.0.1:8000/books/2", "params": {"book_id": 2}, "status": 200, "latency_ms": 5.65, "client_ip": "127.0.0.1", "ts": "2025-10-06T16:15:31.225227"}
+{"route": "http://127.0.0.1:8000/ratings", "params": {"user_id": 1, "book_id": 5, "rating": 4}, "status": 201, "latency_ms": 49.03, "client_ip": "127.0.0.1", "ts": "2025-10-06T16:19:34.403669"}
